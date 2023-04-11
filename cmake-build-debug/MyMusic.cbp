@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyMusic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyMusic">
+				<Option output="C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/MyMusic.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBDEFLATE_DLL"/>
+					<Add option="-DCSS_FILE_PATH=&quot;C:/Users/ADMIN/CLionProjects/MyMusic/MyMusicCSS.css&quot;"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/gtk-3.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/pango-1.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/glib-2.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/glib-2.0/include"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/harfbuzz"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/freetype2"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/libpng16"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/fribidi"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/cairo"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/pixman-1"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/gdk-pixbuf-2.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/webp"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/atk-1.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyMusic"/>
+					<CompileFile command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyMusic/fast">
+				<Option output="C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/MyMusic.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLIBDEFLATE_DLL"/>
+					<Add option="-DCSS_FILE_PATH=&quot;C:/Users/ADMIN/CLionProjects/MyMusic/MyMusicCSS.css&quot;"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/gtk-3.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/pango-1.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/glib-2.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/glib-2.0/include"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/harfbuzz"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/freetype2"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/libpng16"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/fribidi"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/cairo"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/pixman-1"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/gdk-pixbuf-2.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/webp"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../include/atk-1.0"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../include"/>
+					<Add directory="C:/msys64/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyMusic/fast"/>
+					<CompileFile command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/ADMIN/CLionProjects/MyMusic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ADMIN/CLionProjects/MyMusic/main.c">
+			<Option target="MyMusic"/>
+		</Unit>
+		<Unit filename="C:/Users/ADMIN/CLionProjects/MyMusic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

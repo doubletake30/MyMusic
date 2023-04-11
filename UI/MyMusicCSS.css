@@ -1,0 +1,55 @@
+#color-box1 {
+    background-color: #E1DEDB;
+}
+#color-box2,#Page_playlist {
+    background-color: #ffffff;
+}
+#label_mymusic{
+    color: #0A0A0A;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
+}
+#label_playlist,#label_songs{
+    color: #0A0A0A;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Inter;
+}
+#label_tab_playlist,#label_tab_songs{
+    background-color: #2B2A2A;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Inter;
+}
+#label_all{
+    color: #0A0A0A;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Inter;
+}
+#label_playlist_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0A0A0A;
+    font-family: Inter;
+}
+#name_label{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Inter;
+}
+#name_entry{
+    font_size: 25px;
+}
+#create_button{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Inter;
+}
+#cover_label,#label_name_playlist{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter;
+}
